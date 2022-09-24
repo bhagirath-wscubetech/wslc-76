@@ -1,0 +1,8 @@
+1) To change the text color
+	Eg:- color: red
+
+2) To change the background color
+	Eg:- background: black | blue | red | green
+
+3) To change the font size
+	Eg:- font-size: 40px
