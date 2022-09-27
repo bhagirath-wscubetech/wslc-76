@@ -1,0 +1,15 @@
+.demo{
+	background:black;
+	color: white;
+}
+.heading{
+	color: red;
+	text-align: center;
+}
+
+#test{
+	font-size: 100px;
+}
+#ws{
+	font-size: 70px;
+}

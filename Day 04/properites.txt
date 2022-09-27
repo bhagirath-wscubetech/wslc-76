@@ -6,3 +6,6 @@
 
 3) To change the font size
 	Eg:- font-size: 40px
+
+4) font-weight: bold | normal
+5) text-decoration: underline | line-throught | overline | none
