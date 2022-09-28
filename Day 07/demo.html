@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.parent{
+			width: 1000px;
+			height: 500px;
+			border: 2px black solid;
+		}
+		.left{
+			width: 496px;
+			/*500 - 2 (left) - 2 (right) = 496*/
+			height: 496px;
+			/*500 - 2 (top) - 2 (bottom) = 496 */
+			border:2px red solid;
+			/*border-left: 2px red solid;
+			border-right: 2px black solid;*/
+			float: left;
+		}
+		.right{
+			width: 494px;
+			/*500 - 3 - 3 = 494*/
+			height: 494px;
+			/*500 - 3 - 3 = 494*/
+			border: 3px blue solid;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="left"></div>
+		<div class="right"></div>
+	</div>
+</body>
+</html>

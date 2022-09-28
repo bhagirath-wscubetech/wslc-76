@@ -1,0 +1,21 @@
+1) To change the text color
+	Eg:- color: red
+
+2) To change the background color
+	Eg:- background: black | blue | red | green
+
+3) To change the font size
+	Eg:- font-size: 40px
+
+4) font-weight: bold | normal
+5) text-decoration: underline | line-throught | overline | none
+
+6) border: size color type
+   border-top: size color type
+   border-left: size color type
+   border-right: size color type
+   border-bottom: size color type
+   
+	eg: size: 10px , 5px
+	eg: color: red , yellow
+	eg: type: solid , dotted, dashed, double
