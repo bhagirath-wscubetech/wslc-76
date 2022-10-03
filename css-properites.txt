@@ -3,6 +3,8 @@
 
 2) To change the background color
 	Eg:- background: black | blue | red | green
+						hexcode
+						rgb
 
 3) To change the font size
 	Eg:- font-size: 40px
@@ -10,7 +12,7 @@
 4) font-weight: bold | normal
 5) text-decoration: underline | line-throught | overline | none
 
-6) border: size color type
+6) border: size color type (all direction)
    border-top: size color type
    border-left: size color type
    border-right: size color type
@@ -19,3 +21,29 @@
 	eg: size: 10px , 5px
 	eg: color: red , yellow
 	eg: type: solid , dotted, dashed, double
+
+7) margin is space outside the border
+	margin: 5px (all direction)
+	margin-top: 5px (top)
+	margin-left: 5px (left)
+	margin-right: 5px (right)
+	margin-bottom: 5px (bottom)
+	margin: 10px 5px; (y-axis x-axis) 
+		top-bottom: 10px
+		left-right: 5px
+	margin:auto (x-axis)
+
+8) padding is space inside the border
+	padding: 5px (all direction)
+	padding-top: 5px (top)
+	padding-left: 5px (left)
+	padding-right: 5px (right)
+	padding-bottom: 5px (bottom)
+	padding: 10px 5px; (y-axis x-axis) 
+		top-bottom: 10px
+		left-right: 5px
+
+9) text-transform: uppercase | lowercase | unset (default) | capitalize
+10) letter-spacing and word-spacing
+11) font-style: normal | itallic
+12) font-family: 
