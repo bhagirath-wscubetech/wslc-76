@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.main{
+			width: 1000px;
+			margin: auto;
+		}
+		#menu{
+			text-align: center;
+		}
+		/*
+			parent child targeting
+		*/
+		.menu li{
+			font-size: 20px;
+			font-family: verdana;
+			display: inline-block;
+			border-right: 1px blue solid;
+			padding: 20px;
+		}
+		.menu li:last-child{
+			border: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<ul class="menu">
+			<li>
+				Home
+			</li>
+			<li>
+				About
+			</li>
+			<li>
+				Course
+			</li>
+			<li>
+				Gallery
+			</li>
+			<li>
+				Contact Us
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

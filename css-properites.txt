@@ -47,3 +47,14 @@
 10) letter-spacing and word-spacing
 11) font-style: normal | itallic
 12) font-family: 
+13) hover
+14) nth-child()
+		1,2,3,4 ...
+		odd (2n+1), even (2n)
+		3n
+		first-child, last-child
+15) multipe bg
+16) text-shadow
+17) box-shadow: h-offset v-offset blur spread color
+
+18) border-radius: px / % 
