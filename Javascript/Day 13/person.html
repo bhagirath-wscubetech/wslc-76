@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            padding: 10px;
+            max-width: 500px;
+            margin: 10px;
+            float: left;
+            font-family: 'Courier New', Courier, monospace;
+            box-shadow: 0px 0px 1px grey;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent"></div>
+    <script>
+        var person = [
+            {
+                name: "Ram",
+                second: "Kumar",
+                age: 23
+            },
+            {
+                name: "Ramesh",
+                second: "Jain",
+                age: 21
+            },
+            {
+                name: "John",
+                second: "Sukhla",
+                age: 30
+            }
+        ]
+
+
+        var parent = document.getElementById("parent");
+        person.forEach(
+            function (d) {
+                parent.innerHTML += `
+                    <div class="box">
+                        <h3>Name: ${d.name} ${d.second} </h3>
+                        <h3>Age: ${d.age} </h3>
+                    </div>
+                `;
+            }
+        )
+    </script>
+</body>
+
+</html>
