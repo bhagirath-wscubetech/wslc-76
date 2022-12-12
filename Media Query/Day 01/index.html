@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <!-- <meta name="description" content=""> -->
+    <title>Document</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+
+        @media only screen and (min-width:567px) and (max-width:768px) {
+            .box {
+                background-color: yellow;
+            }
+        }
+
+        @media only screen and (min-width:0px) and (max-width:567px) {
+            .box {
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>

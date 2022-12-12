@@ -1,0 +1,17 @@
+@media only screen and (max-width:576px) {
+
+    /* for mobile */
+    .box {
+        width: 100%;
+    }
+
+    .box:last-child {
+        order: -1;
+    }
+}
+
+@media only screen and (max-width:992px) and (min-width:577px) {
+    .box {
+        width: 50%;
+    }
+}
