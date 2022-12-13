@@ -1,0 +1,61 @@
+@media screen and (max-width:576px) {
+    .top-container {
+        display: none;
+    }
+
+    .menu-container {
+        padding: 0px 10px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu {
+        width: 100%;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        justify-content: space-around;
+        text-align: center;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        z-index: 9999;
+        margin-top: 0;
+    }
+
+    .banner-img {
+        right: 0;
+        width: 300px;
+        height: 300px;
+    }
+
+    .banner {
+        height: 350px;
+    }
+
+    
+    #bar {
+        display: initial;
+    }
+
+    .active {
+        color: inherit;
+    }
+
+    #close {
+        display: flex;
+    }
+    .col{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:992px) and (min-width:578px){
+    .col{
+        width: 50%;
+    }  
+    .menu{
+        width:100%;
+    }
+}

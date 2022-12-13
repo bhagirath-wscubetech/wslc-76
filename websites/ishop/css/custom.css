@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.full-container {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+/* top-container */
+.top-container {
+    box-shadow: 0px 4px 5px #FAFAFB;
+}
+
+.top-container .row {
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.top-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+
+.top-right {
+    display: flex;
+    width: 270px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-right div {
+    display: flex;
+    align-items: center;
+}
+#bar{
+    font-size:25px;
+    display: none;
+}
+#close{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.menu-container {
+    margin: 40px 0;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+}
+.open-menu{
+    left: 0 !important;
+}
+
+.menu {
+    margin-top: 15px;
+    width: 650px;
+    text-transform: uppercase;
+    justify-content: space-around;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.active {
+    color: #2E90E5;
+}
+
+.banner {
+    position: relative;
+    height: 650px;
+    background: transparent linear-gradient(67deg, #E71D3A 0%, #ECC7C1 45%, #EFCAC4 58%, #E4BDB8 70%, #42A8FE 100%) 0% 0% no-repeat padding-box;
+}
+
+.banner-img {
+    position: absolute;
+    width: 571px;
+    height: 619px;
+    bottom: 0;
+    right: 321px;
+}
+.best-seller{
+    margin: 40px 0;
+    min-height: 600px;
+}
+.best-seller .title{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.best-seller-menu{
+    margin-top: 15px;
+    max-width: 450px;
+    justify-content: space-around;
+    display: flex;
+    margin: 10px auto;
+}
+.best-seller-menu .active{
+    border-bottom: 3px #2E90E5 solid;
+}
+.best-container{
+    flex-wrap: wrap;
+}  
+.col{
+    width: 25%;
+    height: 350px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin-top: 20px;
+}
+.item-box{
+    height: 100%;
+    box-shadow: 0px 0px 2px grey;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.item-box:hover{
+    box-shadow: 0px 0px 8px grey;
+}
